@@ -1,0 +1,13 @@
+D:\wlm\Client\Proto\Proto2CS.deps.json
+D:\wlm\Client\Proto\Proto2CS.runtimeconfig.json
+D:\wlm\Client\Proto\Proto2CS.runtimeconfig.dev.json
+D:\wlm\Client\Proto\Proto2CS.dll
+D:\wlm\Client\Proto\Proto2CS.pdb
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.csproj.AssemblyReference.cache
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.GeneratedMSBuildEditorConfig.editorconfig
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.AssemblyInfoInputs.cache
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.AssemblyInfo.cs
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.csproj.CoreCompileInputs.cache
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.dll
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.pdb
+D:\wlm\Client\Tools\Proto2CS\obj\Release\Proto2CS.genruntimeconfig.cache
