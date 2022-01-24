@@ -13,6 +13,5 @@ namespace ETModel
         public const int ACCOUNT_REGISTED_SUCCEED = 100003;
         public const int ACCOUNT_REGISTED_FAILED = 100004;
 
-
     }
 }

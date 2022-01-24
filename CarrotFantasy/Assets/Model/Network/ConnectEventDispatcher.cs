@@ -36,14 +36,14 @@ namespace ETModel
             return eventDispatcher;
         }
 
-        public int dispatcherConnectEvent(ConnectEventType eventType, Dictionary<String, Object> mrg)
+        public void dispatcherConnectEvent(String eventType, Dictionary<String, dynamic> mrg)
         {
-            return 1;
+            eventDispatcher.broadcast(eventType, mrg);
         }
 
         public void dispose()
         {
-
+            eventDispatcher.dipose();
         }
     }
 }

@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{B9555A78-6328-1A1D-22F7-38F77EF7A20B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -108,8 +109,16 @@
     <Compile Include="Assets\Model\Util\Event\EvenType.cs" />
     <Compile Include="Assets\Model\Util\GameConfig.cs" />
     <Compile Include="Assets\Model\Util\Lang\Config\zh_cn.cs" />
+    <Compile Include="Assets\Model\Util\Lang\Config\zh_language.cs" />
+    <Compile Include="Assets\Model\Util\Lang\LanguageUtil.cs" />
+    <Compile Include="Assets\Model\Util\LocalStorage\LocalStorageManager.cs" />
+    <Compile Include="Assets\Model\Util\LocalStorage\LocalStorageSaveType.cs" />
+    <Compile Include="Assets\Model\Util\LocalStorage\LocalStorageType.cs" />
     <Compile Include="Assets\Model\Util\MsgGenerator.cs" />
     <Compile Include="Assets\Model\Util\ResourceLoader.cs" />
+    <Compile Include="Assets\Model\Util\Sche\Sche.cs" />
+    <Compile Include="Assets\Model\Util\Sche\ScheObject.cs" />
+    <Compile Include="Assets\Model\Util\TimeManager\TimeUtil.cs" />
     <Compile Include="Assets\Model\Util\UI\UIUtil.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Unity/2018.4.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

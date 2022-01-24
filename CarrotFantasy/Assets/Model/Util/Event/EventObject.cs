@@ -32,7 +32,7 @@ namespace ETModel
             return _delegate;
         }
 
-        public void dispatcher(Dictionary<String, System.Object> arg)
+        public void dispatcher(Dictionary<String, dynamic> arg)
         {
             if (_delegate != null)
             {

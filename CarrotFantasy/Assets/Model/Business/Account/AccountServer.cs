@@ -9,7 +9,7 @@ namespace ETModel
     public class AccountServer
     {
         private static AccountServer _accountServer;
-        public long accountID { get; private set; }
+        public long accountID = 0;
         private bool isInit = false;
         public static AccountServer getInstance()
         {
@@ -27,6 +27,11 @@ namespace ETModel
                 accountID = id;
             }
             isInit = true;
+        }
+
+        public long getAccountId()
+        {
+            return accountID;
         }
 
     }

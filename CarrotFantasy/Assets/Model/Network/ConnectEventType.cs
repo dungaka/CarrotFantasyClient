@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ETModel
 {
-    enum ConnectEventType
+    public static class ConnectEventType
     {
-        Login,
-        Register,
+        public static String LOGINE = "login";
+        public static String REGISTER = "register";
     }
 }

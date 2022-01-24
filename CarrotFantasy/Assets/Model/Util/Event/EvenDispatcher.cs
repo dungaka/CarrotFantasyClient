@@ -7,7 +7,7 @@ using Object =  System.Object;
 
 namespace ETModel
 {
-    public delegate void CallBack(Dictionary<String, System.Object> arg);
+    public delegate void CallBack(Dictionary<String, dynamic> arg);
 
     public class EventDispatcher
     {
@@ -72,6 +72,7 @@ namespace ETModel
                 if (list[i].getCallBack() == target)
                 {
                     list.RemoveAt(i);
+                    break;
                 }
             }
         }
@@ -91,10 +92,9 @@ namespace ETModel
         }
 
         //no parameters
-        public void broadcast(Dictionary<String, System.Object> arg)
+        public void broadcast(String eventName,Dictionary<String, dynamic> arg)
         {
             List<EventObject> d;
-            String eventName = (String)arg["name"];
             if (eventTable.TryGetValue(eventName, out d))
             {
                 for(int i = 0; i < d.Count; i++)
