@@ -15,11 +15,13 @@ namespace ETModel
         public float lastStartTime;
         public bool isOnce = false; 
         public bool isUnscheduled = false;
+        public float intervalTime;
         public ScheObject(int id, callBack call, float interval, float curScheTime)
         {
             uid = id;
             ucallBack = call;
             lastStartTime = curScheTime;
+            intervalTime = interval;
         }
     }
 }

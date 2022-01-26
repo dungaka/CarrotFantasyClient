@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using System.Text;
-using Object =  System.Object;
 
 namespace ETModel
 {
@@ -92,7 +90,7 @@ namespace ETModel
         }
 
         //no parameters
-        public void broadcast(String eventName,Dictionary<String, dynamic> arg)
+        public void broadcast(String eventName, Dictionary<String, dynamic> arg = null)
         {
             List<EventObject> d;
             if (eventTable.TryGetValue(eventName, out d))

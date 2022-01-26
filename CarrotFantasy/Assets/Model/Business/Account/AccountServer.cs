@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace ETModel
 {
-    public class AccountServer
+    public class AccountServer : BaseServer
     {
-        private static AccountServer _accountServer;
         public long accountID = 0;
         private bool isInit = false;
-        public static AccountServer getInstance()
+
+        public override void init()
         {
-            if (_accountServer == null)
-            {
-                _accountServer = new AccountServer();
-            }
-            return _accountServer;
+            base.init();
+        }
+
+        public override void loadModule()
+        {
+            base.loadModule();
+
         }
 
         public void setAccountId(long id)
@@ -34,5 +36,9 @@ namespace ETModel
             return accountID;
         }
 
+        public override void dispose()
+        {
+            
+        }
     }
 }
